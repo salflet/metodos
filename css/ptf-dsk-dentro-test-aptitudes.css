@@ -1,0 +1,56 @@
+/* screen - ptf-dsk-dentro-test-aptitudes */
+
+.ptf-dsk-dentro-test-aptitudes {
+  align-items: flex-start;
+  background-color: var(--blanco);
+  border: 1px none;
+  display: flex;
+  height: 903px;
+  position: relative;
+  width: 1366px;
+}
+
+.ptf-dsk-dentro-test-aptitudes .overlap-group1 {
+  background-image: url(../img/image-6.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 528px;
+  margin-top: 89px;
+  padding: 36px 426px;
+  z-index: 1;
+}
+
+.ptf-dsk-dentro-test-aptitudes .encabezado {
+  height: 70px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1366px;
+  z-index: 2;
+}
+
+.ptf-dsk-dentro-test-aptitudes .overlap-group {
+  background-color: var(--blanco);
+  gap: 979px;
+  height: 82px;
+  left: 0;
+  padding: 13px 87.1px;
+  position: absolute;
+  top: 10px;
+}
+
+.ptf-dsk-dentro-test-aptitudes .group {
+  align-self: center;
+  cursor: pointer;
+  height: 24px;
+  margin-bottom: 2.0px;
+  width: 28px;
+}
+
+.ptf-dsk-dentro-test-aptitudes .group-1 {
+  height: 60px;
+  left: 542px;
+  position: absolute;
+  top: 21px;
+  width: 283px;
+}

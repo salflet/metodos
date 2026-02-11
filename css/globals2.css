@@ -1,0 +1,316 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,500,800|Roboto:400,700,500");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/6242ca5da4ecc37fea678932.6242ca5f5fa0290d19044975.JNNWQrn.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height:200px;
+  position:fixed;
+  z-index:1000;
+}
+.container-center-horizontal-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height:100%;
+  position:fixed;
+  z-index:1000;
+  overflow-y:scroll;
+}
+.container-center-horizontal-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  top:3em;
+  position:absolute;
+ 
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.rectangle-35 {
+  border: 5px solid;
+  border-color: #ff0000;
+  cursor: pointer;
+  height: 69px;
+  width: 117px;
+}
+
+.image-2 {
+  height: 53px;
+  object-fit: cover;
+  width: 182px;
+}
+
+.rectangle-1 {
+  background: linear-gradient(180deg, rgb(251, 230, 204) 0%, rgb(252, 79, 0) 100%);
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.image-3 {
+  height: 60px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 63px;
+}
+
+.tropa-y-marinera {
+  left: 73px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+}
+
+.overlap {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 1366px;
+}
+
+.entrar {
+  color: var(--blanco);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.bienvenida {
+  letter-spacing: 0.70px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.icon-home {
+  height: 25px;
+  margin-bottom: -2.50px;
+  margin-top: -2.50px;
+  min-width: 25px;
+  position: relative;
+}
+
+.inicio {
+  letter-spacing: 0.70px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.botn_-secciones-1 {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.union {
+  height: 23px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 23px;
+}
+
+.icon_-aptitudes_-test {
+  height: 25px;
+  margin-bottom: -2.50px;
+  margin-top: -2.50px;
+  min-width: 25px;
+  position: relative;
+}
+
+.icono_-aptitud_-result2 {
+  height: 25px;
+  margin-bottom: -2.50px;
+  margin-top: -2.50px;
+  min-width: 25px;
+  position: relative;
+}
+
+.ico_-apun {
+  height: 25px;
+  margin-bottom: -2.50px;
+  margin-top: -2.50px;
+  min-width: 25px;
+  position: relative;
+}
+
+.group-1-1 {
+  height: 60px;
+  left: 542px;
+  position: absolute;
+  top: 21px;
+  width: 283px;
+}
+
+.usuario {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.0px;
+  width: 154px;
+}
+
+.ellipse-1 {
+  height: 99px;
+  margin-left: -4px;
+  margin-top: -4px;
+  object-fit: cover;
+  width: 99px;
+}
+
+.name {
+  height: 50px;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-right: 2.0px;
+  margin-top: 11px;
+  text-align: center;
+  width: 152px;
+}
+
+.contador {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-right: 1px;
+  min-height: 98px;
+  width: 155px;
+}
+
+.te-quedan-en-mtodos {
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  min-width: 153px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.overlap-group-container {
+  align-items: flex-end;
+  background-image: url(../img/union@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  gap: 33px;
+  height: 61px;
+  justify-content: flex-end;
+  margin-left: 1px;
+  min-width: 151px;
+  padding: 0 11px;
+}
+
+.das,
+.horas {
+    color: var(--blanco);
+    font-family: var(--font-family-roboto);
+    font-size: 12px;
+    line-height: 1;
+    position: static;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.baremo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 156px;
+}
+
+.mi-baremo {
+  height: 30px;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.renovar {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 78px;
+  width: 152px;
+}
+
+.icon_ {
+  height: 25px;
+  margin-bottom: -2.50px;
+  margin-top: -2.50px;
+  min-width: 25px;
+  position: relative;
+}
+
+.icon-arrow-circle-down {
+  height: 18px;
+  width: 18px;
+}
+
+.checkbox-1 {
+  height: 14px;
+  margin-bottom: 2.25px;
+  width: 13px;
+}

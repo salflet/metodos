@@ -1,0 +1,1380 @@
+/* screen - ptf-dsk-mis-destinos */
+
+/* Contenedor principal */
+.contenedor-principal {
+    /* max-width: 1200px;*/
+    max-width: 97%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Contenedor de columnas con flexbox */
+.contenedor-columnas {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 20px;
+    margin-top: 3%;
+}
+
+/* Estilos de las columnas */
+.columna {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.plazas-y-notas-de-co {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+/********************************************/
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .plazas-y-notas-de-co {
+        margin-top: 0px;
+    }
+
+    .div_small {
+        font-size: x-small;
+    }
+    .container-center-horizontal-3 {
+        position: relative;
+    }
+    table, thead, tbody, th, td, tr {
+        /*  display: block;
+        width: 100%;*/
+        table-layout: fixed;
+        font-size: x-small;
+        width: auto;
+    }
+
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+    tr {
+        margin-bottom: 10px;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+    }
+
+        td:before {
+            content: attr(data-label);
+            position: absolute;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+        }
+
+    .contenedor-principal {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .contenedor-columnas {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 5%;
+    }
+
+    .columna {
+        width: 100%;
+       /* margin-bottom: 15px;*/
+        padding: 0px;
+    }
+    .contenedor-columnas {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: var(--gris-01);
+        border: 1px none;
+        display: flex;
+        /*flex-direction: column;*/
+        gap: 34px;
+        height: 10%;
+        /* width: 90%;*/
+    }
+}
+    /* Estilos para los controles ASP.NET */
+    .gridview-estilo {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .icono-plazas {
+        align-items: flex-end;
+        background-color: var(--verdemetodos);
+        border-radius: 5px;
+        display: flex;
+        height: 37px;
+        justify-content: flex-end;
+        min-width: 39px;
+        padding: 4.6px 2.2px;
+    }
+
+
+
+    .ptf-dsk-mis-destinos .group-70 {
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        margin-left: 91px;
+        min-width: 273px;
+    }
+
+    .ptf-dsk-mis-destinos .overlap-group-container {
+        align-items: flex-start;
+        align-self: center;
+        display: flex;
+        width: 100vw; /* El 100vw indica el 100% del ancho de la ventana */
+        height: 100vh; /* El 100vh indica el 100% de la altura de la ventana */
+    }
+
+
+    .ptf-dsk-mis-destinos, .consulta-aqu-todos {
+        left: 10px;
+        letter-spacing: 0;
+       /* line-height: 24px;*/
+        position: relative;
+        top: 70px;
+       /* white-space: nowrap;*/
+       /* width: 559px;*/
+    }
+
+        .ptf-dsk-mis-destinos .vector-14 {
+            height: 1px;
+            left: 0;
+            position: absolute;
+            top: 30px;
+            width: 554px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-19 {
+            height: 1px;
+            left: 0;
+            position: absolute;
+            top: 74px;
+            width: 562px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-24 {
+            height: 1px;
+            left: 0;
+            position: absolute;
+            top: 118px;
+            width: 562px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-25 {
+            height: 1px;
+            left: 0;
+            position: absolute;
+            top: 162px;
+            width: 562px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-26 {
+            height: 1px;
+            left: 0;
+            position: absolute;
+            top: 222px;
+            width: 562px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-27 {
+            height: 1px;
+            left: 0;
+            position: absolute;
+            top: 330px;
+            width: 562px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-7 {
+            height: 360px;
+            left: 51px;
+            position: absolute;
+            top: 3px;
+            width: 1px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-28 {
+            height: 360px;
+            left: 94px;
+            position: absolute;
+            top: 3px;
+            width: 1px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-29 {
+            height: 360px;
+            left: 353px;
+            position: absolute;
+            top: 3px;
+            width: 1px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-30 {
+            height: 360px;
+            left: 430px;
+            position: absolute;
+            top: 3px;
+            width: 1px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-31 {
+            height: 360px;
+            left: 475px;
+            position: absolute;
+            top: 3px;
+            width: 1px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-32 {
+            height: 360px;
+            left: 508px;
+            position: absolute;
+            top: 3px;
+            width: 1px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar {
+            align-items: flex-start;
+            display: flex;
+            height: 24px;
+            left: 0;
+            min-width: 558px;
+            position: absolute;
+            top: 0;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-cod {
+            line-height: 24px;
+            min-width: 22px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-esp {
+            line-height: 24px;
+            margin-left: 34px;
+            min-width: 20px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-nombre-destino {
+            letter-spacing: 0;
+            line-height: 24px;
+            margin-left: 23px;
+            min-width: 87px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-provincia {
+            line-height: 24px;
+            margin-left: 172px;
+            min-width: 51px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-plazas {
+            line-height: 24px;
+            margin-left: 26px;
+            min-width: 37px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-fis {
+            line-height: 24px;
+            margin-left: 8px;
+            min-width: 16px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-cfor {
+            line-height: 24px;
+            margin-left: 16px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-1 {
+            align-items: flex-start;
+            display: flex;
+            height: 32px;
+            left: 0;
+            min-width: 571px;
+            position: absolute;
+            top: 36px;
+        }
+
+        .ptf-dsk-mis-destinos .number {
+            letter-spacing: 0;
+            line-height: 16px;
+            min-width: 34px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-aad {
+            line-height: 16px;
+            margin-left: 22px;
+            min-width: 24px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-rgto-de-inf-amri {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 19px;
+            min-height: 32px;
+            width: 244px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-place {
+            line-height: 16px;
+            margin-left: 15px;
+            min-width: 62px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-number {
+            line-height: 16px;
+            margin-left: 15px;
+            min-width: 7px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-c {
+            line-height: 16px;
+            margin-left: 38px;
+            min-width: 8px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-etesda {
+            line-height: 16px;
+            margin-left: 24px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-2 {
+            align-items: flex-start;
+            display: flex;
+            height: 48px;
+            left: 0;
+            min-width: 571px;
+            position: absolute;
+            top: 168px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 22px;
+            min-width: 21px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-regimiento-de-ponton {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 22px;
+            min-height: 48px;
+            width: 244px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-number-1 {
+            margin-left: 15px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-c-1 {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 31px;
+            min-width: 8px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-etesda-1 {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 24px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-3 {
+            align-items: flex-start;
+            display: flex;
+            height: 32px;
+            left: 0;
+            min-width: 574px;
+            position: absolute;
+            top: 80px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-aer {
+            line-height: 16px;
+            margin-left: 21px;
+            min-width: 23px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-regimiento-acorazado {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 21px;
+            min-height: 32px;
+            width: 244px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-crdoba {
+            line-height: 16px;
+            margin-left: 15px;
+            min-width: 55px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-d {
+            line-height: 16px;
+            margin-left: 24px;
+            min-width: 8px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-escano {
+            line-height: 16px;
+            margin-left: 24px;
+        }
+
+        .ptf-dsk-mis-destinos .group-82 {
+            align-items: flex-start;
+            display: flex;
+            height: 96px;
+            left: 0;
+            min-width: 580px;
+            position: absolute;
+            top: 228px;
+        }
+
+        .ptf-dsk-mis-destinos .amp {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 21px;
+            min-width: 26px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .buques-unidades-zona-sur {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 18px;
+            white-space: nowrap;
+            width: 244px;
+        }
+
+        .ptf-dsk-mis-destinos .rota-san-fernando {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 15px;
+            min-height: 96px;
+            width: 66px;
+        }
+
+        .ptf-dsk-mis-destinos .number-6 {
+            margin-left: 11px;
+            min-width: 14px;
+        }
+
+        .ptf-dsk-mis-destinos .c {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 31px;
+            min-width: 8px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .esengra {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 24px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-4 {
+            align-items: flex-start;
+            display: flex;
+            height: 32px;
+            left: 0;
+            min-width: 571px;
+            position: absolute;
+            top: 124px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-ilg {
+            line-height: 16px;
+            margin-left: 24px;
+            min-width: 18px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-grupo-de-regulares-d {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 23px;
+            min-height: 32px;
+            width: 244px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-place-1 {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 15px;
+            min-width: 48px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-number-2 {
+            margin-left: 29px;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-d-1 {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 31px;
+            min-width: 8px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .navbar-link-cefot1 {
+            line-height: 16px;
+            margin-left: 24px;
+        }
+
+        .ptf-dsk-mis-destinos .group-83 {
+            align-items: flex-start;
+            display: flex;
+            height: 16px;
+            left: 0;
+            min-width: 571px;
+            position: absolute;
+            top: 336px;
+        }
+
+        .ptf-dsk-mis-destinos .sci {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 24px;
+            min-width: 19px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .ala-11-moron-moron-de-la-frontera {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 22px;
+            white-space: nowrap;
+            width: 244px;
+        }
+
+        .ptf-dsk-mis-destinos .sevilla {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 15px;
+            min-width: 46px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .number-7 {
+            margin-left: 31px;
+            min-width: 7px;
+        }
+
+        .ptf-dsk-mis-destinos .d {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 38px;
+            min-width: 8px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .etesda {
+            letter-spacing: 0;
+            line-height: 16px;
+            margin-left: 24px;
+            white-space: nowrap;
+        }
+
+        .ptf-dsk-mis-destinos .ttulo-plazas {
+            align-items: flex-start;
+            display: flex;
+            gap: 9px;
+            height: 40px;
+            left: 9px;
+            min-width: 563px;
+            position: absolute;
+            top: 10px;
+        }
+
+        .ptf-dsk-mis-destinos .vector-1 {
+            height: 27px;
+            width: 31px;
+        }
+
+        .ptf-dsk-mis-destinos .plazas-y-notas-de-co {
+            align-self: flex-end;
+            letter-spacing: 0;
+            line-height: 26px;
+            white-space: nowrap;
+            width: 513px;
+        }
+
+        .ptf-dsk-mis-destinos .men-desplegable {
+            align-items: flex-start;
+            display: flex;
+            height: 33px;
+            left: 299px;
+            min-width: 270px;
+            position: absolute;
+            top: 97px;
+        }
+
+        .ptf-dsk-mis-destinos .overlap-group {
+            border-radius: 5px;
+            height: 33px;
+            position: relative;
+            width: 270px;
+        }
+
+        .ptf-dsk-mis-destinos .overlap-group-1 {
+            align-items: flex-start;
+            background-color: var(--gris-01);
+            border-radius: 5px;
+            display: flex;
+            height: 33px;
+            left: 0;
+            min-width: 270px;
+            padding: 4.3px 15px;
+            position: absolute;
+            top: 0;
+        }
+
+        .ptf-dsk-mis-destinos .buscar-por {
+            height: 24px;
+            letter-spacing: 0;
+            line-height: 24px;
+            white-space: nowrap;
+        }
+
+    .vector {
+        height: 20px;
+        left: 242px;
+        position: absolute;
+        top: 6px;
+        width: 20px;
+    }
+
+    .ptf-dsk-mis-destinos .men-desplegable-1 {
+        align-items: flex-start;
+        display: flex;
+        height: 33px;
+        left: 9px;
+        min-width: 270px;
+        position: absolute;
+        top: 97px;
+    }
+
+
+    .ptf-dsk-mis-destinos .overlap-group4 {
+        height: 653px;
+        left: 0;
+        position: absolute;
+        top: 3px;
+        width: 676px;
+    }
+
+
+    .ptf-dsk-mis-destinos .overlap-group3 {
+        margin-top: 10px;
+        position: absolute;
+        width: 100vw;
+        left: -250px;
+        display: flex;
+        height: 100vh;
+    }
+
+
+    .ptf-dsk-mis-destinos .overlap-group-2 {
+        height: 512px;
+        margin-top: 10%;
+        left: 0;
+        position: absolute;
+        width: 45%;
+    }
+
+
+    .ptf-dsk-mis-destinos .rectangle-35-1 {
+        background-color: var(--blanco);
+        border-radius: 10px;
+        height: 600px;
+        left: 1073px;
+        position: absolute;
+        margin-top: 10%;
+        width: 40%;
+    }
+
+    .ptf-dsk-mis-destinos .mtodos-te-ayuda-a-e {
+        left: 9px;
+        letter-spacing: 0;
+        line-height: 18px;
+        position: absolute;
+        top: 61px;
+        width: 330px;
+    }
+
+    .ptf-dsk-mis-destinos .overlap-group-5 {
+        height: 656px;
+        left: 5px;
+        position: absolute;
+        top: 161px;
+        width: 576px;
+    }
+
+
+    .ptf-dsk-mis-destinos .overlap-group-3 {
+        min-height: 100px;
+        align-items: center;
+        background-color: #d8fcf7;
+        border-radius: 11px;
+        display: flex;
+        height: 57px;
+        width: 101px;
+        min-width: 198px;
+        padding: 7px 7.2px;
+    }
+
+
+
+    .ptf-dsk-mis-destinos .overlap-group4 {
+        height: 653px;
+        left: 0;
+        position: absolute;
+        top: 3px;
+        width: 576px;
+    }
+
+    .ptf-dsk-mis-destinos .trama-verde {
+        background-color: #d8fcf7;
+        height: 627px;
+        left: 385px;
+        position: absolute;
+        top: 26px;
+        width: 186px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-14-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 26px;
+        width: 566px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-22 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 102px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-23 {
+        height: 1px;
+        left: 0;
+        position: absolute;
+        top: 146px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-24-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 222px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-25-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 298px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-26-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 342px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-27-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 418px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-28-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 494px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-29-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 538px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-30-1 {
+        height: 1px;
+        left: 4px;
+        position: absolute;
+        top: 614px;
+        width: 554px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-7-1 {
+        height: 653px;
+        left: 32px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-15 {
+        height: 653px;
+        left: 74px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-16 {
+        height: 653px;
+        left: 108px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-17 {
+        height: 653px;
+        left: 266px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-18 {
+        height: 653px;
+        left: 336px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-19-1 {
+        height: 653px;
+        left: 384px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-20 {
+        height: 653px;
+        left: 436px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-21 {
+        height: 653px;
+        left: 508px;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .ptf-dsk-mis-destinos .navbar-5 {
+        align-items: flex-start;
+        display: flex;
+        height: 64px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 33px;
+    }
+
+    .ptf-dsk-mis-destinos .number-1 {
+        min-width: 7px;
+    }
+
+    .ptf-dsk-mis-destinos .number-2 {
+        margin-left: 27px;
+        min-width: 34px;
+    }
+
+    .ptf-dsk-mis-destinos .rgto-de-inf-amri {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-height: 64px;
+        width: 151px;
+    }
+
+    .ptf-dsk-mis-destinos .place {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-width: 62px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .number-3 {
+        margin-left: 8px;
+        min-width: 7px;
+    }
+
+    .ptf-dsk-mis-destinos .text {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 47px;
+        min-width: 31px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .text-1 {
+        margin-left: 24px;
+        min-width: 45px;
+    }
+
+    .ptf-dsk-mis-destinos .text-2 {
+        margin-left: 32px;
+    }
+
+    .ptf-dsk-mis-destinos .group-92 {
+        align-items: flex-start;
+        display: flex;
+        height: 64px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 229px;
+    }
+
+    .ptf-dsk-mis-destinos .aad {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-width: 24px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .group-95 {
+        align-items: flex-start;
+        display: flex;
+        height: 64px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 425px;
+    }
+
+    .ptf-dsk-mis-destinos .navbar-6 {
+        align-items: flex-start;
+        display: flex;
+        height: 32px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 109px;
+    }
+
+    .ptf-dsk-mis-destinos .grupo-de-regulares-d {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-height: 32px;
+        width: 151px;
+    }
+
+    .ptf-dsk-mis-destinos .place-1 {
+        min-width: 48px;
+    }
+
+    .ptf-dsk-mis-destinos .number-4 {
+        margin-left: 22px;
+        min-width: 7px;
+    }
+
+    .ptf-dsk-mis-destinos .group-93 {
+        align-items: flex-start;
+        display: flex;
+        height: 32px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 305px;
+    }
+
+    .ptf-dsk-mis-destinos .group-96 {
+        align-items: flex-start;
+        display: flex;
+        height: 32px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 501px;
+    }
+
+    .ptf-dsk-mis-destinos .group-98 {
+        align-items: flex-start;
+        display: flex;
+        height: 32px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 621px;
+    }
+
+    .ptf-dsk-mis-destinos .number-8 {
+        min-width: 14px;
+    }
+
+    .ptf-dsk-mis-destinos .number-9 {
+        margin-left: 20px;
+        min-width: 34px;
+    }
+
+    .ptf-dsk-mis-destinos .navbar-7 {
+        align-items: flex-start;
+        display: flex;
+        height: 64px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 153px;
+    }
+
+    .ptf-dsk-mis-destinos .navbar-link-ing {
+        line-height: 16px;
+        margin-left: 8px;
+        min-width: 21px;
+    }
+
+    .ptf-dsk-mis-destinos .regimiento-de-ponton {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 11px;
+        min-height: 64px;
+        width: 151px;
+    }
+
+    .ptf-dsk-mis-destinos .place-2 {
+        min-width: 46px;
+    }
+
+    .ptf-dsk-mis-destinos .number-5 {
+        margin-left: 24px;
+        min-width: 14px;
+    }
+
+    .ptf-dsk-mis-destinos .text-2-1 {
+        margin-left: 40px;
+        min-width: 31px;
+    }
+
+    .ptf-dsk-mis-destinos .phone {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 20px;
+        min-width: 52px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .text-2-2 {
+        margin-left: 29px;
+    }
+
+    .ptf-dsk-mis-destinos .group-94 {
+        align-items: flex-start;
+        display: flex;
+        height: 64px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 349px;
+    }
+
+    .ptf-dsk-mis-destinos .ing {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-width: 21px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .group-97 {
+        align-items: flex-start;
+        display: flex;
+        height: 64px;
+        left: 4px;
+        min-width: 572px;
+        position: absolute;
+        top: 545px;
+    }
+
+    .ptf-dsk-mis-destinos .ing-1 {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-width: 21px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .cod {
+        left: 38px;
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .pref {
+        left: 4px;
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .esp {
+        left: 80px;
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .nombre-destino {
+        left: 113px;
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .provincia {
+        left: 271px;
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .plazas {
+        left: 341px;
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .mi-nota {
+        left: 390px;
+    }
+
+    .ptf-dsk-mis-destinos .mi-posicin {
+        left: 441px;
+    }
+
+    .ptf-dsk-mis-destinos .nota-corte {
+        left: 514px;
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .icono-plazas-1 {
+        align-items: flex-start;
+        background-color: var(--verdemetodos);
+        border-radius: 5px;
+        display: flex;
+        height: 37px;
+        min-width: 39px;
+        padding: 4.7px 10.7px;
+        width: 32px;
+    }
+
+    .vector-2 {
+        height: 27px;
+        width: 18px;
+    }
+
+    .ptf-dsk-mis-destinos .tus-diez-destinos {
+        align-self: flex-end;
+        letter-spacing: 0;
+        line-height: 26px;
+        white-space: nowrap;
+        width: 513px;
+        margin-top: -5px;
+    }
+
+    .group-99 {
+        align-items: flex-start;
+        display: flex;
+        gap: 5px;
+        height: 69px;
+        left: 365px;
+        min-width: 210px;
+        position: absolute;
+        top: 62px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-3 {
+        height: 20px;
+        margin-left: -1px;
+        margin-top: 5.57px;
+        width: 20px;
+    }
+
+    .ptf-dsk-mis-destinos .este-clculo-se-obti {
+        letter-spacing: 0;
+        line-height: 16px;
+        min-height: 48px;
+        width: 171px;
+    }
+
+    .ptf-dsk-mis-destinos .group-60 {
+        align-items: flex-start;
+        background-color: var(--verdemetodos);
+        display: flex;
+        height: 16px;
+        justify-content: flex-end;
+        left: 407px;
+        min-width: 16px;
+        padding: 2.4px 2.7px;
+        position: absolute;
+        top: 140px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-4 {
+        height: 11px;
+        width: 11px;
+    }
+
+    .ptf-dsk-mis-destinos .group-69 {
+        align-items: flex-start;
+        background-color: var(--verdemetodos);
+        display: flex;
+        height: 16px;
+        justify-content: flex-end;
+        left: 469px;
+        min-width: 16px;
+        padding: 1.0px 1.2px;
+        position: absolute;
+        top: 140px;
+    }
+
+    .ptf-dsk-mis-destinos .vector-5 {
+        height: 14px;
+        width: 13px;
+    }
+
+    .ptf-dsk-mis-destinos .group-88 {
+        align-items: flex-end;
+        background-color: var(--verdemetodos);
+        display: flex;
+        height: 16px;
+        justify-content: flex-end;
+        left: 539px;
+        min-width: 16px;
+        padding: 2.7px 1.2px;
+        position: absolute;
+        top: 140px;
+    }
+
+    .ptf-dsk-mis-destinos .icon-scissors {
+        height: 11px;
+        width: 13px;
+    }
+
+    .ptf-dsk-mis-destinos .aad-5 {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-width: 24px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .mi {
+        letter-spacing: 0;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .navbar-link-1 {
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .navbar-link-aad-3 {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        min-width: 24px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .navbar-link-number-3 {
+        letter-spacing: 0;
+        line-height: 16px;
+        min-width: 14px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .number-10 {
+        letter-spacing: 0;
+        line-height: 16px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .place-3 {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-left: 8px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .text-3 {
+        letter-spacing: 0;
+        line-height: 16px;
+        white-space: nowrap;
+    }
+
+    .ptf-dsk-mis-destinos .text-2-3 {
+        letter-spacing: 0;
+        line-height: 16px;
+        white-space: nowrap;
+    }
+}
